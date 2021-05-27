@@ -3,9 +3,9 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
 
 # Instruction
-install modules: npm install 
-start the server: ng serve 
-start the fake server: json-server --watch db.json
+Install modules: npm install.
+Start the server: ng serve.
+Start the fake server: json-server --watch db.json.
 
 ## Development server
 
