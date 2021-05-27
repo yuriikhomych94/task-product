@@ -1,0 +1,19 @@
+<div class="row" >
+    <h1 class="productsTitle">Products List</h1>
+    <div class="col-sm-4 center" *ngFor="let product of products">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">{{product.name}}</h3>
+                <p class="card-text">{{product.label}}</p>
+                <p class="card-text">Price: {{product.price}}$</p>
+
+                <div class="plus-minus">
+                    <button class="btn btn-danger" type="button" (click)="productCount(product, false)">-</button>
+                    <p class="card-text">Count: {{product.count}}</p>
+                    <button class="btn btn-success" type="button" (click)="productCount(product, true)">+</button>
+                </div>
+                <button class="btn btn-primary" (click)="addToBasket(product)">Order</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,175 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "article-1",
+      "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+      "price": 25,
+      "count": 1
+    },
+    {
+      "id": 2,
+      "name": "article-2",
+      "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+      "price": 35,
+      "count": 1
+    },
+    {
+      "id": 3,
+      "name": "article-3",
+      "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+      "price": 45,
+      "count": 1
+    },
+    {
+      "id": 4,
+      "name": "article-4",
+      "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+      "price": 55,
+      "count": 1
+    },
+    {
+      "id": 5,
+      "name": "article-5",
+      "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+      "price": 155,
+      "count": 1
+    },
+    {
+      "id": 6,
+      "name": "article-6",
+      "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+      "price": 255,
+      "count": 1
+    },
+    {
+      "name": "Pizza",
+      "label": "Margarita",
+      "price": 29.99,
+      "count": 1,
+      "id": 7
+    }
+  ],
+  "orders": [
+    {
+      "orders": [
+        {
+          "id": 2,
+          "name": "article-2",
+          "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+          "price": 35,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "name": "article-1",
+          "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+          "price": 25,
+          "count": 1
+        }
+      ],
+      "totalPrice": 165,
+      "id": 1
+    },
+    {
+      "orders": [
+        {
+          "id": 1,
+          "name": "article-1",
+          "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+          "price": 25,
+          "count": 3
+        }
+      ],
+      "totalPrice": 75,
+      "id": 2
+    },
+    {
+      "orders": [
+        {
+          "name": "фівІ",
+          "label": "ІВА",
+          "price": 223,
+          "count": 1,
+          "id": 7
+        }
+      ],
+      "totalPrice": 223,
+      "id": 3
+    },
+    {
+      "orders": [
+        {
+          "id": 1,
+          "name": "article-1",
+          "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+          "price": 25,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "name": "article-2",
+          "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+          "price": 35,
+          "count": 4
+        }
+      ],
+      "totalPrice": 215,
+      "id": 4
+    },
+    {
+      "orders": [
+        {
+          "id": 2,
+          "name": "article-2",
+          "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+          "price": 35,
+          "count": 1
+        },
+        {
+          "id": 3,
+          "name": "article-3",
+          "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+          "price": 45,
+          "count": 1
+        }
+      ],
+      "totalPrice": 80,
+      "id": 5
+    },
+    {
+      "orders": [
+        {
+          "id": 2,
+          "name": "article-2",
+          "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+          "price": 35,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "name": "article-3",
+          "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+          "price": 45,
+          "count": 5
+        },
+        {
+          "name": "Pizza",
+          "label": "Margarita",
+          "price": 29.99,
+          "count": 3,
+          "id": 7
+        },
+        {
+          "id": 4,
+          "name": "article-4",
+          "label": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime veritatis voluptates deserunt sint rerum ipsa culpa neque, animi delectus quasi cupiditate reiciendis, illo officiis corrupti ut enim labore temporibus.",
+          "price": 55,
+          "count": 5
+        }
+      ],
+      "totalPrice": 729.97,
+      "id": 6
+    }
+  ]
+}

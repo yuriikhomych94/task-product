@@ -1,0 +1,22 @@
+<div class="empty" *ngIf="orders.length == 0">
+    <h1>Basket is empty</h1>
+    <button class="btn btn-secondary" (click)="goBack()">Back</button>
+</div>
+
+<b></b>
+
+<div class="container" *ngIf="orders.length >= 1">
+    <div class="card-body" *ngFor="let order of orders">
+        <div class="product-title"><b>Product Name: </b> {{order.name}}</div>
+        <div class="b"> <b>Count:</b>{{order.count}}</div>
+        <div class="product-amount"><b>Price: </b> {{order.price}}$</div>
+        <div class="itemPrice productPrice">
+            <b>Total price: </b><span>{{order.count * order.price}}$</span>
+        </div>
+        <button class="btn btn-danger" (click)="deleteProduct(order)">Delete product</button>
+    </div>
+
+    <h2>Full Сost: {{totalPrice}}$</h2>
+    <button class="btn btn-primary" (click)="addOrder()">Make order</button>
+
+</div>

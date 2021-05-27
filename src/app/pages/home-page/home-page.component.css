@@ -1,0 +1,18 @@
+.center {
+    text-align: center;
+}
+.card {
+    margin: 20px;
+}
+.btn-primary {
+    margin: 5px 0;
+}
+.plus-minus {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.productsTitle {
+    text-align: center;
+}
